@@ -5,7 +5,7 @@ export default (posts= [], action)=>{
             return action.payload;
         // eslint-disable-next-line no-duplicate-case
         case 'CREATE':
-            return posts;
+            return [...posts, action.payload];
         default:
             return posts;
     }
