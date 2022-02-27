@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Icon = () => (
+const icon = () => (
   <svg style={{ width: '20px', height: '20px' }} viewBox="0 0 24 24">
     <path
       fill="currentColor"
@@ -9,4 +9,4 @@ const Icon = () => (
   </svg>
 );
 
-export default Icon;
+export default icon;
